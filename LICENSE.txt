@@ -1,0 +1,2 @@
+This gem bundles the OrieentDB driver for Java.
+

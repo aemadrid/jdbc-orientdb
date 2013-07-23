@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.name = %q{jdbc-orientdb}
   s.version = version
 
-  s.authors = ["Adrian Madrid"]
-  s.date = %q{2012-12-16}
+  s.authors = ["Adrian Madrid", 'Hosam Aly']
+  s.date = %q{2013-07-23}
   s.description = %q{Install this gem and require 'orientdb' within JRuby to load the driver.}
   s.email = %q{aemadrid@gmail.com}
   s.files = [

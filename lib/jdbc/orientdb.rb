@@ -1,10 +1,11 @@
 module Jdbc
   module OrientDB
-    VERSION = "1.0"
+    VERSION = "1.4.0"
   end
 end
 if RUBY_PLATFORM =~ /java/
-  require "orientdb-jdbc-#{Jdbc::OrientDB::VERSION}-SNAPSHOT.jar"
+         # orientdb-jdbc-1.4.0-all.jar
+  require "orientdb-jdbc-#{Jdbc::OrientDB::VERSION}-all.jar"
 elsif $VERBOSE
   warn "jdbc-orientdb is only for use with JRuby"
 end

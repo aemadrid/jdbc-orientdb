@@ -1,0 +1,1 @@
+2013-07-23 Update the JDBC JAR to 1.4.0 (Hosam Aly)
